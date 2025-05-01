@@ -170,7 +170,7 @@ const Contact = () => {
                     <div>
                     <h4 className="font-semibold mb-1">Email</h4>
                     <p className="text-gray-600">
-                        <a href="mailto:service@firevolt.com.au" className="hover:text-primary-600 transition">
+                        <a href="mailto:info@brokersmutual.com.au" className="hover:text-primary-600 transition">
                         info@brokersmutual.com.au
                         </a>
                     </p>
