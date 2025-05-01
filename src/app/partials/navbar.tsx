@@ -9,15 +9,6 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   const pathname = usePathname();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
-
-  
-  const togglePopup = () => {
-    setIsPopupOpen(!isPopupOpen);
-    setMobileMenuOpen(false);
-  };
-  
-
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -151,11 +142,14 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <button onClick={togglePopup}
+                  <Link href={"/contact"}>
+                  <button
                     className="block bg-primary-600 text-white px-6 py-2 rounded-lg font-medium text-center hover:bg-primary-700 transition shadow-md">
-                      Free Quote Now
+                      Contact Us
                     
                   </button>
+                  </Link>
+                  
                 </li>
               </ul>
             </nav>

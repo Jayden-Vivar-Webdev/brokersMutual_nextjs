@@ -66,7 +66,16 @@ const Contact = () => {
                     
                     <div className="md:w-1/2 p-8 md:p-12">
                         <h3 className="text-xl font-bold mb-6 text-secondary-900">Send Us a Message</h3>
-                        <form>
+                        <form 
+                                action="https://api.web3forms.com/submit" 
+                                method="POST"
+                                className="max-w-md mx-auto"
+                                >
+                                <input 
+                                    type="hidden" 
+                                    name="access_key" 
+                                    value="3c05d15c-bf5d-4dcf-b4b5-412e6ca61337" 
+                                />
                             <div className="mb-4">
                                 <label htmlFor="name" className="block text-secondary-700 font-medium mb-2">Full Name</label>
                                 <input 
@@ -99,7 +108,17 @@ const Contact = () => {
                                 <label htmlFor="message" className="block text-secondary-700 font-medium mb-2">Your Message</label>
                                 <textarea id="message" className="form-input w-full px-4 py-2 h-30 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent" placeholder="Tell us about your financial goals..."></textarea>
                             </div>
-                            
+                            {/* Honeypot spam protection */}
+                            <input 
+                                type="hidden" 
+                                name="enable_recaptcha" 
+                                value="true" 
+                                />
+                                <input 
+                                type="hidden" 
+                                name="javascript" 
+                                value="true" 
+                                />
                             <button type="submit" className="w-full bg-primary-600 text-white py-3 px-6 rounded-lg font-bold hover:bg-primary-700 transition shadow-md hover:shadow-lg">Send Message</button>
                         </form>
                     </div>
