@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHandshake, faLock, faMapMarkerAlt, faPhone, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faClock, faEnvelope, faHandshake, faLock, faMapMarkerAlt, faPhone, faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
     return(
@@ -126,6 +126,116 @@ const Contact = () => {
             </div>
         </div>
     </section>
+    
+    <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Service Locations</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                We&apos;re conveniently located to serve your safety compliance needs across the region.
+            </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Contact Information Card - Moved to left */}
+            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 order-1 lg:order-1">
+                <div className="space-y-6">
+                <div className="flex items-center">
+                    <FontAwesomeIcon icon={faMapMarkerAlt} className="text-primary-500 text-xl mr-4" />
+                    <div>
+                    <h3 className="text-xl font-bold mb-1">Head Office</h3>
+                    <p className="text-gray-600">
+                        Brisbane, QLD 4000<br />
+                        Australia
+                    </p>
+                    </div>
+                </div>
+
+                <div className="flex items-center">
+                    <FontAwesomeIcon icon={faPhone} className="text-primary-500 text-xl mr-4" />
+                    <div>
+                    <h4 className="font-semibold mb-1">Phone</h4>
+                    <p className="text-gray-600">
+                        <a href="tel:+611300533294" className="hover:text-primary-600 transition">
+                        1300 533 294
+                        </a>
+                    </p>
+                    </div>
+                </div>
+
+                <div className="flex items-center">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-primary-500 text-xl mr-4" />
+                    <div>
+                    <h4 className="font-semibold mb-1">Email</h4>
+                    <p className="text-gray-600">
+                        <a href="mailto:service@firevolt.com.au" className="hover:text-primary-600 transition">
+                        service@firevolt.com.au
+                        </a>
+                    </p>
+                    </div>
+                </div>
+
+                <div className="flex items-start">
+                    <FontAwesomeIcon icon={faClock} className="text-primary-500 text-xl mr-4 mt-1" />
+                    <div>
+                    <h4 className="font-semibold mb-1">Business Hours</h4>
+                    <p className="text-gray-600">
+                        Mon-Fri: 8:00 AM - 5:00 PM<br />
+                        Sat: 9:00 AM - 1:00 PM<br />
+                        Sun: Closed
+                    </p>
+                    </div>
+                </div>
+
+                <div className="pt-4 border-t border-gray-200">
+                    <p className="text-sm text-gray-500">
+                    Operating All Year Round<br />
+                    Appointments recommended
+                    </p>
+                </div>
+                </div>
+            </div>
+
+            {/* Google Maps Embed - Centered and larger */}
+            <div className="lg:col-span-2 order-2 lg:order-2">
+                <div className="rounded-xl overflow-hidden shadow-lg h-full min-h-[400px]">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.1285672704726!2d150.7386441!3d-34.040573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f1bbd9cfeb4d%3A0xc74738ad8eceb4dc!2sBrokers%20Mutual%20Acceptance!5e0!3m2!1sen!2sau!4v1746140358922!5m2!1sen!2sau"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="min-h-[400px]"
+                    title="Business Location Map"
+                ></iframe>
+                </div>
+            </div>
+            </div>
+
+            {/* CTA Buttons - Now side by side under the map */}
+            <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+            <a
+                href="https://maps.app.goo.gl/Y6YmdzxeDZHpMVDQA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-medium transition shadow-md hover:shadow-lg flex-1 sm:flex-none sm:w-auto text-center"
+            >
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
+                Open in Google Maps
+            </a>
+            <a
+                href="tel:1300562642"
+                className="inline-flex items-center justify-center bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-lg font-medium transition shadow-md hover:shadow-lg flex-1 sm:flex-none sm:w-auto text-center"
+            >
+                <FontAwesomeIcon icon={faPhone} className="mr-2 text-primary-500" />
+                Call Us Now
+            </a>
+            </div>
+        </div>
+    </section>
+    
 {/* <!-- Contact Options --> */}
 <section className="py-16">
         <div className="container mx-auto px-4">
