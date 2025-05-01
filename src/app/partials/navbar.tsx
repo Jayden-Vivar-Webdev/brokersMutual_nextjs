@@ -33,8 +33,8 @@ const Navbar = () => {
           <Image
             src="/assets/logo.webp"
             alt="logo"
-            height={50}
-            width={100}
+            height={12}
+            width={70}
             ></Image>
           </Link>
           
