@@ -170,7 +170,7 @@ const Contact = () => {
                     <div className="text-center">
                         <p className="text-secondary-700">5/22 Sommerset Ave</p>
                         <p className="text-secondary-700">Narellan, NSW 2567</p>
-                        <a href="#" className="text-primary-600 text-sm font-semibold hover:text-primary-800 transition mt-2 inline-block">Get Directions →</a>
+                        <a href="https://www.google.com/maps/place/Brokers+Mutual+Acceptance/@-34.040573,150.7386441,17z/data=!3m1!4b1!4m6!3m5!1s0x6b12f1bbd9cfeb4d:0xc74738ad8eceb4dc!8m2!3d-34.040573!4d150.7386441!16s%2Fg%2F11bbvpm08b?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D" className="text-primary-600 text-sm font-semibold hover:text-primary-800 transition mt-2 inline-block">Get Directions →</a>
                     </div>
                 </div>
             </div>
