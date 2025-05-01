@@ -252,7 +252,7 @@ const Contact = () => {
                     <h3 className="text-xl font-bold mb-3 text-center">Phone Support</h3>
                     <p className="text-secondary-600 text-center mb-4">Speak directly with a financial advisor during business hours.</p>
                     <div className="text-center">
-                        <a href="tel:+18001234567" className="text-primary-600 font-semibold hover:text-primary-800 transition">+1 (800) 123-4567</a>
+                        <a href="tel:1300562642" className="text-primary-600 font-semibold hover:text-primary-800 transition">1300 562 642</a>
                         <p className="text-sm text-secondary-500 mt-1">Mon-Fri, 9am-5pm EST</p>
                     </div>
                 </div>
