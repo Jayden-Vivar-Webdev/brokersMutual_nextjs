@@ -145,7 +145,9 @@ const Contact = () => {
                     <div>
                     <h3 className="text-xl font-bold mb-1">Head Office</h3>
                     <p className="text-gray-600">
-                        Brisbane, QLD 4000<br />
+                    5/6 Somerset Ave
+                    Narellan NSW 2567
+                    <br />
                         Australia
                     </p>
                     </div>
@@ -156,8 +158,8 @@ const Contact = () => {
                     <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
                     <p className="text-gray-600">
-                        <a href="tel:+611300533294" className="hover:text-primary-600 transition">
-                        1300 533 294
+                        <a href="tel:1300562642" className="hover:text-primary-600 transition">
+                        1300 562 642
                         </a>
                     </p>
                     </div>
@@ -169,7 +171,7 @@ const Contact = () => {
                     <h4 className="font-semibold mb-1">Email</h4>
                     <p className="text-gray-600">
                         <a href="mailto:service@firevolt.com.au" className="hover:text-primary-600 transition">
-                        service@firevolt.com.au
+                        info@brokersmutual.com.au
                         </a>
                     </p>
                     </div>
