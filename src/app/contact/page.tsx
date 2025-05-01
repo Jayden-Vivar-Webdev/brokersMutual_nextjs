@@ -266,7 +266,7 @@ const Contact = () => {
                     <h3 className="text-xl font-bold mb-3 text-center">Email Us</h3>
                     <p className="text-secondary-600 text-center mb-4">Send us your questions and we&apos;ll respond within 24 hours.</p>
                     <div className="text-center">
-                        <a href="mailto:info@Brokers Mutual.com" className="text-primary-600 font-semibold hover:text-primary-800 transition">info@Brokers Mutual.com</a>
+                        <a href="mailto:info@brokersmutual.com.au" className="text-primary-600 font-semibold hover:text-primary-800 transition">info@brokersmutual.com.au</a>
                         <p className="text-sm text-secondary-500 mt-1">General inquiries</p>
                     </div>
                 </div>
