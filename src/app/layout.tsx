@@ -18,9 +18,6 @@ import "./styles.css";
 //   );
 // };
 // export default Layout;
-
-
-
 //DELETE WHAT IS BELOW WHEN THEY PAY FOR THE HOSTING AND THE INVOICE
 
 export default function Layout() {
@@ -57,7 +54,7 @@ export default function Layout() {
                 
                 {/* <!-- Subheading --> */}
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-                    Secure hosting infrastructure with 99.9% uptime guarantee and 24/7 expert support.
+                    Secure hosting with 99.9% uptime guarantee and 24/7 expert support.
                 </p>
                 
                 {/* <!-- Call-to-action button --> */}
