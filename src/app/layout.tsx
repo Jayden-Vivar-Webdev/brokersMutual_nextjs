@@ -37,7 +37,6 @@ export default Layout;
 //                     className="h-12 md:h-16 w-auto"
 //                 />
 //             </div>
-            
 //             {/* <!-- Content section with better spacing --> */}
 //             <div className="max-w-4xl mx-auto text-center">
 //                 {/* <!-- Divider with text --> */}
