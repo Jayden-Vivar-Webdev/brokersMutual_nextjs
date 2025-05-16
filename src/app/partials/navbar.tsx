@@ -48,13 +48,25 @@ const Navbar = () => {
                 </li>
                 <li>
                 <Link 
-                    href="/404"
+                    href="/"
                     className={`nav-link relative pb-1 transition ${
                       pathname === '/404' ? 'text-primary-600 border-b-2 border-primary-600' : 'text-secondary-600 hover:text-primary-600'
                     }`}
                   >
                    
                       Services
+                    
+                  </Link>
+                </li>
+                <li>
+                <Link 
+                    href="/apply"
+                    className={`nav-link relative pb-1 transition ${
+                      pathname === '/404' ? 'text-primary-600 border-b-2 border-primary-600' : 'text-secondary-600 hover:text-primary-600'
+                    }`}
+                  >
+                   
+                      Apply
                     
                   </Link>
                 </li>
