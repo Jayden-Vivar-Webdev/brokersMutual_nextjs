@@ -54,7 +54,7 @@ const Navbar = () => {
                     }`}
                   >
                    
-                      Join us
+                      Join Us
                     
                   </Link>
                 </li>
