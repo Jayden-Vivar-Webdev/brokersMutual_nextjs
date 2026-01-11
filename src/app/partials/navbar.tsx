@@ -53,7 +53,6 @@ const Navbar = () => {
                       pathname === '/404' ? 'text-primary-600 border-b-2 border-primary-600' : 'text-secondary-600 hover:text-primary-600'
                     }`}
                   >
-                   
                       Join Us
                     
                   </Link>
@@ -65,7 +64,6 @@ const Navbar = () => {
                       pathname === '/404' ? 'text-primary-600 border-b-2 border-primary-600' : 'text-secondary-600 hover:text-primary-600'
                     }`}
                   >
-                   
                       Apply
                     
                   </Link>
@@ -143,8 +141,6 @@ const Navbar = () => {
                     
                   </Link>
                 </li>
-                
-               
                 <li>
                   <Link href="/contact"
                     onClick={() => {toggleMobileMenu()}}
